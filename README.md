@@ -14,9 +14,15 @@ cd kali-havk
 ```
 bash kalilinux.sh
 ```
+```
+kalilinux 
+```
 
 <b> Tool creation</b>
 
 ```
 pkg install wget -y && wget https://raw.githubusercontent.com/GH05T-HUNTER5/kali-havk/main/install.sh && bash install.sh
+```
+```
+kalilinux
 ```
