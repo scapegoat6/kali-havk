@@ -13,7 +13,6 @@ pkg install proot -y >/dev/null 2>&1
 pkg install python -y >/dev/null 2>&1
 pkg install python2 -y >/dev/null 2>&1
 pkg install openssh -y >/dev/null 2>&1
-
 clear
 mkdir -p /data/data/com.termux/files/usr/.kali-gh05t >/dev/null 2>&1
 if [ -d /data/data/com.termux/files/usr/.kali-gh05t ]; then
