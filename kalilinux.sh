@@ -9,12 +9,12 @@ echo " ██╔═██╗ ██╔══██║██║     ██║  �
 echo " ██║  ██╗██║  ██║███████╗██║  ██║  ██║██║  ██║ ╚████╔╝ ██║  ██╗"
 echo " ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝"
 echo " Please Wait"
-pkg install wget -y >/dev/null 2>&1
-pkg install openssl-tool -y >/dev/null 2>&1
-pkg install proot -y >/dev/null 2>&1
-pkg install python -y >/dev/null 2>&1
-pkg install python2 -y >/dev/null 2>&1
-pkg install openssh -y >/dev/null 2>&1
+pkg install wget -y 
+pkg install openssl-tool -y 
+pkg install proot -y 
+pkg install python -y 
+pkg install python2 -y 
+pkg install openssh -y 
 clear
 mkdir -p /data/data/com.termux/files/usr/.kali-gh05t >/dev/null 2>&1
 if [ -d /data/data/com.termux/files/usr/.kali-gh05t ]; then
