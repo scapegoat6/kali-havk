@@ -6,7 +6,7 @@ mv -f kali-havk ~ >/dev/null 2>&1
 GREEN="$(printf '\033[32m')"
 WHITE="$(printf '\033[37m')"
 CYAN="$(printf '\033[36m')"
-mkdir -p /data/data/com.termux/files/GH05T-HUNTER5 >/dev/null 2>&1
+mkdir -p /data/data/com.termux/files/.GH05T-HUNTER5 >/dev/null 2>&1
 clear
 # 😁 fun
 echo -e "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Installing required packages..."
