@@ -1,6 +1,9 @@
 #!/bin/bash
 #GH05T HUNTER5
 #INSTAGRAM GH05T_HUNTER5
+GREEN="$(printf '\033[32m')"
+WHITE="$(printf '\033[37m')"
+CYAN="$(printf '\033[36m')"
 clear
 echo " ██╗  ██╗ █████╗ ██╗     ██╗  ██╗  ██╗ █████╗ ██╗   ██╗██╗  ██╗"
 echo " ██║ ██╔╝██╔══██╗██║     ██║  ██║  ██║██╔══██╗██║   ██║██║ ██╔╝"
@@ -8,7 +11,8 @@ echo " █████╔╝ ███████║██║     ██║  �
 echo " ██╔═██╗ ██╔══██║██║     ██║  ██╔══██║██╔══██║╚██╗ ██╔╝██╔═██╗"
 echo " ██║  ██╗██║  ██║███████╗██║  ██║  ██║██║  ██║ ╚████╔╝ ██║  ██╗"
 echo " ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝"
-echo " Please Wait"
+echo -e "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Installing required packages..."
+sleep 3
 pkg install wget -y 
 pkg install openssl-tool -y 
 pkg install proot -y 
