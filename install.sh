@@ -43,5 +43,13 @@ rm -rf kali-havk
 else
 echo "Completed"
 fi
+if [ -d /data/data/com.termux/files/.GH05T-HUNTER5 ]; then
+echo ""
+clear
+else
+echo ""
+mkdir -p /data/data/com.termux/files/.GH05T-HUNTER5
+clear
+fi
 clear
 exit
