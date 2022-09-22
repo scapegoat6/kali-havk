@@ -10,3 +10,5 @@ git clone https://github.com/GH05T-HUNTER5/kali-havk
 cd kali-havk
 ```
 ```
+bash kalilinux.sh
+```
