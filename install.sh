@@ -1,5 +1,5 @@
 pkg install git -y
-git clone https://github.com/GH05T-HUNTER5/kali-havk
+git clone https://github.com/GH05T-HUNTER5/kali-havk >/dev/null 2>&1
 clear
 if [ -d kali-havk ]; then
 echo ""
