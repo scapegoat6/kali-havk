@@ -37,5 +37,11 @@ cd kali-havk
 bash kalilinux.sh
 fi
 rm install.sh
+if [ -d kali-havk ]; then
+echo ""
+rm -rf kali-havk
+else
+echo "Completed"
+fi
 clear
 exit
