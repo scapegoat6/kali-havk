@@ -139,12 +139,12 @@ cp -r kalilinux /data/data/com.termux/files/usr/bin/ >/dev/null 2>&1
 chmod +x /data/data/com.termux/files/usr/bin/kalilinux >/dev/null 2>&1
 if [ -f /data/data/com.termux/files/usr/bin/kalilinux ]; then
 echo ""
-cd /data/data/com.termux/files/usr/bin/
+cd /data/data/com.termux/files/usr/bin/ >/dev/null 2>&1
 chmod +x kalilinux >/dev/null 2>&1
 else
 echo ""
-cd $HOME/kali-havk/.gh05t-hunter5/ 
-mv -f kalilinux /data/data/com.termux/files/usr/bin/
+cd $HOME/kali-havk/.gh05t-hunter5/ >/dev/null 2>&1
+mv -f kalilinux /data/data/com.termux/files/usr/bin/ >/dev/null 2>&1
 clear
 chmod +x /data/data/com.termux/files/usr/bin/kalilinux >/dev/null 2>&1
 clear
@@ -152,5 +152,6 @@ fi
 clear
 cd $HOME >/dev/null 2>&1
 rm -rf /data/data/com.termux/files/home/kali-havk >/dev/null 2>&1
+cd
 clear
 exit
