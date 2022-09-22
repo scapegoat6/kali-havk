@@ -1,6 +1,8 @@
 #!/bin/bash
 #GH05T HUNTER5
 #INSTAGRAM GH05T_HUNTER5
+cd .. >/dev/null 2>&1
+mv -f kali-havk ~ >/dev/null 2>&1
 GREEN="$(printf '\033[32m')"
 WHITE="$(printf '\033[37m')"
 CYAN="$(printf '\033[36m')"
