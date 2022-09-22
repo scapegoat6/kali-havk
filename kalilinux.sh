@@ -7,11 +7,10 @@ GREEN="$(printf '\033[32m')"
 WHITE="$(printf '\033[37m')"
 CYAN="$(printf '\033[36m')"
 clear
-echo "kali-havk Installation"
-sleep 1 
+echo "https://github.com/GH05T-HUNTER5/kali-havk"
 # 😁 fun
 echo -e "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Installing required packages..."
-sleep 3
+sleep 2
 pkg install wget -y 
 pkg install openssl-tool -y 
 pkg install proot -y 
