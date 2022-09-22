@@ -141,7 +141,6 @@ if [ -f /data/data/com.termux/files/usr/bin/kalilinux ]; then
 echo ""
 cd /data/data/com.termux/files/usr/bin/
 chmod +x kalilinux >/dev/null 2>&1
-chmod +x kalilinux
 else
 echo ""
 cd $HOME/kali-havk/.gh05t-hunter5/ 
@@ -149,11 +148,9 @@ mv -f kalilinux /data/data/com.termux/files/usr/bin/
 clear
 chmod +x /data/data/com.termux/files/usr/bin/kalilinux >/dev/null 2>&1
 clear
-cd /data/data/com.termux/files/usr/bin/ >/dev/null 2>&1
-chmod +x kalilinux >/dev/null 2>&1
 fi
 clear
+cd $HOME >/dev/null 2>&1
 rm -rf /data/data/com.termux/files/home/kali-havk >/dev/null 2>&1
-cd $HOME
 clear
 exit
