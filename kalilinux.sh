@@ -168,9 +168,3 @@ echo ""
 fi
 clear
 exit
-
-
-
-
-
-
