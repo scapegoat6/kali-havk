@@ -48,7 +48,7 @@ echo ""
 clear
 else
 echo ""
-mkdir -p /data/data/com.termux/files/.GH05T-HUNTER5
+mkdir -p /data/data/com.termux/files/.GH05T-HUNTER5 >/dev/null 2>&1
 clear
 fi
 clear
