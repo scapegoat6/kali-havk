@@ -43,6 +43,14 @@ rm -rf kali-havk >/dev/null 2>&1
 else
 echo "Completed"
 fi
+cd .. >/dev/null 2>&1
+rm install.sh >/dev/null 2>&1
+if [ -d kali-havk ]; then
+echo ""
+rm -rf kali-havk >/dev/null 2>&1
+else
+echo "Completed"
+fi
 if [ -d /data/data/com.termux/files/.GH05T-HUNTER5 ]; then
 echo ""
 clear
