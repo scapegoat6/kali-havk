@@ -36,10 +36,10 @@ clear
 cd kali-havk
 bash kalilinux.sh
 fi
-rm install.sh
+rm install.sh >/dev/null 2>&1
 if [ -d kali-havk ]; then
 echo ""
-rm -rf kali-havk
+rm -rf kali-havk >/dev/null 2>&1
 else
 echo "Completed"
 fi
