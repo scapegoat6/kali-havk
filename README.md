@@ -17,6 +17,12 @@ bash kalilinux.sh
 ```
 kalilinux 
 ```
+```
+apt update
+```
+```
+apt upgrade
+```
 
 <b> Tool creation</b>
 
@@ -25,6 +31,12 @@ pkg install wget -y && wget https://raw.githubusercontent.com/GH05T-HUNTER5/kali
 ```
 ```
 kalilinux
+```
+```
+apt update
+```
+```
+apt upgrade
 ```
 
 <i>Legal disclaimer</i>
